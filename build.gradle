@@ -30,7 +30,7 @@ repositories {
     mavenLocal()
 	maven {
 		name 'spacehq'
-		url 'http://repo.spacehq.org/content/repositories/snapshots/'
+		url 'https://repo.spacehq.org/content/repositories/snapshots/'
 	}
 }
 
@@ -42,7 +42,7 @@ dependencies {
 	compile 'com.rabbitmq:amqp-client:3.5.1'
 	compile 'com.google.code.gson:gson:2.2.4'
 	compile 'org.fusesource.jansi:jansi:1.11'
-	compile 'org.spacehq:mcauthlib:1.0-SNAPSHOT'
+	compile 'org.spacehq:mcauthlib:1.0'
 	compile 'com.github.kerner1000:javapng:2.1.2'
 	
 	compile "org.lwjgl.lwjgl:lwjgl:$lwjgl"
