@@ -34,7 +34,7 @@ import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GLContext;
 import org.lwjgl.opengl.Pbuffer;
 import org.lwjgl.opengl.PixelFormat;
-import org.spacehq.mc.auth.SessionService;
+import org.spacehq.mc.auth.service.SessionService;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;

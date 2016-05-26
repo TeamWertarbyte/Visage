@@ -42,7 +42,7 @@ import java.util.zip.InflaterInputStream;
 
 import javax.imageio.ImageIO;
 
-import org.spacehq.mc.auth.GameProfile;
+import org.spacehq.mc.auth.data.GameProfile;
 
 import com.google.common.collect.Maps;
 import com.google.common.io.Files;
